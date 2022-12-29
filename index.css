@@ -134,6 +134,7 @@ footer{
     background-color: rgb(127, 150, 255);
     font-size: 1.1rem;
     padding: 4px 4px;
+    border: 2px solid black;
     border-radius: 8px;
     width: 28px;
     text-align: center;
