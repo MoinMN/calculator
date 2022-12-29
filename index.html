@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/437000937b.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="calz_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>Simple Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Simple Calculator</h1>
+        <input type="text" name="calculation" id="calculation" placeholder="0" readonly="readonly">
+        <div id="row1">
+            <button class="btn" onclick="openBracket()">(</button>
+            <button class="btn" onclick="closeBracket()">)</button>
+            <button class="btn" onclick="clr()">C</button>
+            <button class="btn" onclick="del()"><i class="fa-solid fa-delete-left"></i></button>
+        </div>
+        <div id="row2">
+            <button class="btn" onclick="calculate(7)">7</button>
+            <button class="btn" onclick="calculate(8)">8</button>
+            <button class="btn" onclick="calculate(9)">9</button>
+            <button class="btn" onclick="calculate('+')"><i class="fa-solid fa-plus"></i></button>
+        </div>
+        <div id="row3">
+            <button class="btn" onclick="calculate(4)">4</button>
+            <button class="btn" onclick="calculate(5)">5</button>
+            <button class="btn" onclick="calculate(6)">6</button>
+            <button class="btn" onclick="calculate('/')"><i class="fa-solid fa-divide"></i></button>
+        </div>
+        <div id="row4">
+            <button class="btn" onclick="calculate(1)">1</button>
+            <button class="btn" onclick="calculate(2)">2</button>
+            <button class="btn" onclick="calculate(3)">3</button>
+            <button class="btn" onclick="calculate('-')"><i class="fa-solid fa-minus"></i></button>
+        </div>
+        <div id="row5">
+            <button class="btn" onclick="calculate('.')">.</button>
+            <button class="btn" onclick="calculate(0)">0</button>
+            <button class="btn" onclick="calculator('=')"><i class="fa-solid fa-equals"></i></button>
+            <button class="btn" onclick="calculate('*')"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+    </div>
+    <div id="rightBar">
+        <div id="like">
+            <button onclick="hitLike()"><i class="fa-solid fa-thumbs-up"></i></button>
+            <input type="text" id="likes" readonly="readonly" placeholder="0">
+            <span>Hit me if you like</span>
+        </div>
+    </div>
+    <footer>
+        <span id="center-foot">Developed & Maintain by <a href="https://github.com/MoinMN">Moin MN</a> </span>
+        <span id="right-foot">version 1.1.0</span>
+    </footer>
+</body>
+<script src="index.js"></script>
+
+</html>

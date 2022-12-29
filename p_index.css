@@ -1,0 +1,61 @@
+@media only screen and (max-width:555px) and (min-width: 380px) {
+    .container h1 {
+        font-size: 2.5rem;
+        margin: 18px;
+        padding: 8px 8px;
+        margin-top: 38px;
+        margin-bottom: 33px;
+    }
+
+    #calculation {
+        height: 40px;
+        width: 350px;
+        font-size: 30px;
+        padding: 5px 5px;
+    }
+
+    .btn {
+        width: 80px;
+        height: 50px;
+        font-size: 22px;
+    }
+
+    #row1 {
+        margin-top: 34px;
+    }
+
+    #row5 {
+        margin-bottom: 135px;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .container h1 {
+        font-size: 2rem;
+        margin: 16px;
+        padding: 6px 6px;
+        margin-top: 38px;
+        margin-bottom: 33px;
+    }
+
+    #calculation {
+        height: 40px;
+        width: 270px;
+        font-size: 30px;
+        padding: 5px 5px;
+    }
+
+    .btn {
+        width: 60px;
+        height: 45px;
+        font-size: 20px;
+    }
+
+    #row1 {
+        margin-top: 34px;
+    }
+
+    #row5 {
+        margin-bottom: 125px;
+    }
+}
