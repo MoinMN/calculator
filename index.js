@@ -22,7 +22,10 @@ let clr=()=>{
 }
 
 let del=()=>{
-    result.value = result.value.slice(0, -1);
+    if(result.value == "undefined" || result.value == "Infinity")
+        result.value = "";
+    else
+        result.value = result.value.slice(0, -1);
 }
 
 let openBracket=()=>{
