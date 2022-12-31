@@ -22,7 +22,7 @@ let clr=()=>{
 }
 
 let del=()=>{
-    if(result.value == "undefined" || result.value == "Infinity")
+    if(result.value == "undefined" || result.value == "Infinity" || result.value == "NaN")
         result.value = "";
     else
         result.value = result.value.slice(0, -1);
